@@ -44,3 +44,6 @@ body {
 .red {
     background-color: red;
 }
+.selected {
+    box-shadow:-0px 0px 50px 30px rgb(250, 248, 159); 
+}
