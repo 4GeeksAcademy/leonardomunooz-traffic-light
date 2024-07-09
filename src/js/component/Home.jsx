@@ -1,27 +1,15 @@
 import React from "react";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
-//create your first component
-
-const dimentionLight = {
-	width:"300px",
-	height:"300px"
-}
+import Figura from "./Figura"
 const Home = () => {
 	return (
 		<>
-		<div className="sostenedor">
-		</div>
-		<div className="semaforo">
-			<div className="light red">
+			<div className="sostenedor">
 			</div>
-			<div className="light yellow">
+			<div className="semaforo">
+				<Figura clase="light red"/>
+				<Figura clase="light yellow"/>
+				<Figura clase="light green"/>
 			</div>
-			<div className="light green">
-			</div>
-		</div>
 		</>
 		
 	);
